@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Small Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">MySite</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h1>Welcome to My Small Website</h1>
+      <p>A simple starter page built with HTML, CSS, and JavaScript.</p>
+      <button id="cta-btn">Click Me</button>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>This is a small demo site. Edit the files in the frontend folder to customize it.</p>
+    </section>
+
+    <section id="contact" class="section alt">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your name" required />
+        <input type="email" id="email" placeholder="Your email" required />
+        <textarea id="message" placeholder="Your message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p id="form-status"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> MySite. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
