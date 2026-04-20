@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply</title>
+</head>
+
+<body>
+    <h2>Apply for a Job</h2>
+
+    <input type="text" id="fullName" placeholder="Full Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="text" id="phone" placeholder="Phone">
+
+    <select id="position">
+        <option value="">Select Position</option>
+        <option value="Frontend Developer">Frontend Developer</option>
+        <option value="Backend Developer">Backend Developer</option>
+        <option value="UI/UX Designer">UI/UX Designer</option>
+        <option value="Project Manager">Project Manager</option>
+    </select>
+
+    <textarea id="coverLetter" placeholder="Cover Letter"></textarea>
+
+    <button onclick="submitApplication()">Submit Application</button>
+
+    <br><br>
+    <a href="recruiting.html">Back to Positions</a>
+
+    <script src="recruiting.js"></script>
+
+</body>
+
+</html>
