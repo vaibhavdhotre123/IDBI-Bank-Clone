@@ -8,4 +8,5 @@ function makePayment() {
     }
 
     alert("Payment Successful 💳");
+
 }
